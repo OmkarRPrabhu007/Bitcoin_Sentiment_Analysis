@@ -1,10 +1,10 @@
-# 🚀 Bitcoin Sentiment vs Trader Performance Analysis
+# Bitcoin Sentiment vs Trader Performance Analysis
 
 This repository presents a comprehensive data-driven analysis of how Bitcoin market sentiment influences trader behavior and profitability. Using real-world trading logs and sentiment data, we uncover patterns, test strategies, and generate actionable insights.
 
 ---
 
-## 📁 Data Overview
+## Data Overview
 
 ### Trader Dataset
 - **Rows:** 211,224 (initial), 79,225 (after cleaning)
@@ -23,7 +23,7 @@ This repository presents a comprehensive data-driven analysis of how Bitcoin mar
 
 ---
 
-## 📊 Analysis Workflow
+## Analysis Workflow
 
 ### 🔗 Step 1: Merging Datasets
 - Successfully merged on matching date fields.
@@ -31,7 +31,7 @@ This repository presents a comprehensive data-driven analysis of how Bitcoin mar
 
 ---
 
-### 🔍 Step 2: Correlation Analysis
+### Step 2: Correlation Analysis
 
 | Metric             | Pearson | P-Value | Spearman | Interpretation   |
 |--------------------|---------|---------|----------|------------------|
@@ -46,7 +46,7 @@ This repository presents a comprehensive data-driven analysis of how Bitcoin mar
 
 ---
 
-### 📈 Step 3: Performance by Sentiment
+### Step 3: Performance by Sentiment
 
 | Sentiment        | Mean PnL     | 95% CI                     | Sample Size | Win Rate |
 |------------------|--------------|----------------------------|-------------|----------|
@@ -58,7 +58,7 @@ This repository presents a comprehensive data-driven analysis of how Bitcoin mar
 
 ---
 
-### 🎯 Step 4: Profitability Patterns
+### Step 4: Profitability Patterns
 
 - **Profitable Days:** 109 (69%)
 - **Loss Days:** 49 (31%)
@@ -91,7 +91,7 @@ This repository presents a comprehensive data-driven analysis of how Bitcoin mar
 
 ---
 
-### 🔬 Step 5: Advanced Pattern Analysis
+### Step 5: Advanced Pattern Analysis
 
 #### PnL vs Sentiment Trend
 
@@ -117,7 +117,7 @@ This repository presents a comprehensive data-driven analysis of how Bitcoin mar
 
 ---
 
-### 📉 Step 6: Strategy Backtesting
+### Step 6: Strategy Backtesting
 
 #### Contrarian Strategy
 - **Final Return:** 58,012.52%
@@ -142,32 +142,32 @@ This repository presents a comprehensive data-driven analysis of how Bitcoin mar
 
 ---
 
-## 🧠 Key Insights & Recommendations
+## Key Insights & Recommendations
 
-### ✅ Optimal Sentiment Regimes
+### Optimal Sentiment Regimes
 - **Best PnL:** Fear (`$56.31`)
 - **Worst PnL:** Extreme Fear (`$8.95`)
 
-### 🔥 Volume Insights
+### Volume Insights
 - **Volume-PnL Correlation:** `0.598`
 - **High Volume PnL Avg:** `$57.21`
 - **Low Volume PnL Avg:** `$21.73`
 
-### 👥 Behavioral Insights
+### Behavioral Insights
 - **Optimal Buy Ratio:** `48.2%`
 - **Avg. Trades on Profitable Days:** `270`
 
-### ⚠️ Risk Management
+### Risk Management
 - **Most Risky Sentiment:** Extreme Fear
 - **Safest Sentiment:** Extreme Greed
 
-### 🏆 Best Performing Regime
+### Best Performing Regime
 - **Sentiment:** Extreme Greed
 - **Win Rate:** 72.1%
 
 ---
 
-## 📸 Plot Gallery & Visual Insights
+## Plot Gallery & Visual Insights
 
 Each plot below visualizes key aspects of the dataset and is accompanied by a concise interpretation.
 
