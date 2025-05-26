@@ -248,5 +248,3 @@ Each plot below visualizes key aspects of the dataset and is accompanied by a co
 
 ---
 
-## 📂 Project Structure
-
