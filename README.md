@@ -174,77 +174,66 @@ Each plot below visualizes key aspects of the dataset and is accompanied by a co
 ### 1. Sentiment vs Total PnL
 
 ![sentiment_vs_total_pnl](plots/sentiment_vs_total_pnl.png)  
-*Weak negative correlation. High sentiment does not imply higher profits.*
 
 ---
 
 ### 2. PnL Distribution by Sentiment
 
 ![pnl_by_sentiment](plots/pnl_by_sentiment.png)  
-*Extreme Greed and Fear lead to higher average PnLs. Extreme Fear has lowest returns.*
 
 ---
 
 ### 3. Volume vs PnL (Colored by Sentiment)
 
 ![volume_vs_pnl](plots/volume_vs_pnl.png)  
-*Higher volumes correlate with higher PnL. Moderate positive correlation.*
 
 ---
 
 ### 4. Buy Ratio Distribution by Sentiment
 
 ![buy_ratio_by_sentiment](plots/buy_ratio_by_sentiment.png)  
-*Profitable zones usually have buy ratios around 0.48–0.52.*
 
 ---
 
 ### 5. PnL Over Time
 
 ![pnl_time_series](plots/pnl_time_series.png)  
-*Volatility observed. Spikes align with sentiment shifts.*
 
 ---
 
 ### 6. Sentiment Over Time
 
 ![sentiment_time_series](plots/sentiment_time_series.png)  
-*Fluctuations between Fear and Greed. Useful for strategy timing.*
 
 ---
 
 ### 7. Correlation Matrix
 
 ![correlation_matrix](plots/correlation_matrix.png)  
-*Trade count, volume, and trader count have weak-to-moderate relationships.*
 
 ---
 
 ### 8. Mean PnL by Sentiment Class
 
 ![mean_pnl_sentiment](plots/mean_pnl_sentiment.png)  
-*Extreme Greed and Fear perform best. Neutral and Extreme Fear underperform.*
 
 ---
 
 ### 9. Rolling Correlation (PnL vs Sentiment)
 
 ![rolling_corr](plots/rolling_corr.png)  
-*Short-term correlations occasionally spike, implying limited predictive power.*
 
 ---
 
 ### 10. Risk by Sentiment
 
 ![pnl_volatility_sentiment](plots/pnl_volatility_sentiment.png)  
-*Extreme Fear has highest volatility. Greed zones are safer.*
 
 ---
 
 ### 11. Win Rate by Sentiment
 
 ![winrate_by_sentiment](plots/winrate_by_sentiment.png)  
-*Extreme Greed and Greed show highest win ratios.*
 
 ---
 
